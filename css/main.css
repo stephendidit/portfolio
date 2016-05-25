@@ -50,3 +50,7 @@ hr {
     font-family: josefin slab, serif;
     text-transform: capitalize;
 }
+
+.aboutDescription {
+    margin-top: 1rem;
+}
