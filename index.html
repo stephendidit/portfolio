@@ -296,13 +296,12 @@
     <script>
     $(document).ready(function(){
         $('footer').load( "./footer.html" );
-
-        $('#footer .fa').hover(function(){
-            $(this).toggleClass('active','fast', 'easeOutSine')
-        });
-
-
-    });
+    }).on({
+        mouseenter: function () {
+            $(this).toggleClass('active','fast', 'easeOutSine');
+        }, mouseleave: function() {
+            $(this).toggleClass('active','fast', 'easeOutSine');
+        } }, "#footer .fa") ;
     </script>
     </body>
 </html>
