@@ -270,7 +270,16 @@
 
             <footer class="footer">
                 <div class="col-md-12 text-xs-center" id="footer">
-                    <h4><a href="mailto:stephendfrost@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></h4>
+                    <h5><small>Please use the following to contact me/judge my intellect, cultural fit, and growth potential:</small></h5>
+                    <h5>
+                        <a href="mailto:stephendfrost@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href="https://github.com/stephendidit"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="http://stackoverflow.com/users/3719034/stephen"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/in/stephenfrostmusic"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/stephendidit"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="http://stereocouture.com"><i class="fa fa-music" aria-hidden="true"></i></a>
+                    </h5>
+                    <h5><small>Built by <a href="mailto:stephendfrost@gmail.com">Stephen Frost. Copyright 2016.</a></small></h5>
                 </div>
 
             </footer>
@@ -296,5 +305,13 @@
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/343cc4bbfb.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#footer .fa').hover(function(){
+            $(this).toggleClass('active','fast', 'easeOutSine')
+        });
+    });
+    </script>
     </body>
 </html>
