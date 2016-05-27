@@ -19,274 +19,241 @@
 </head>
 
     <body>
-        <div class="container-fluid">
-            <nav class="navbar navbar-light">
-            <!-- <div class="row" id="navbar"> -->
-                <ul class="nav navbar-nav pull-xs-right">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resumé</a>
-                    </li>
-
-                </ul>
-                </nav>
-<!--                 <nav class="navbar">
-                    <div class="nav navbar-nav pull-xs-right">
-                        <a class="nav-item nav-link" href="#">Projects</a>
-                        <a class="nav-item nav-link" href="#">About</a>
-                        <a class="nav-item nav-link" href="#">Contact</a>
-                        <a class="nav-item nav-link" href="#">Resumé</a>
-                    </div>
-                </nav>
- -->            </div>
-
-            <div class="row" id="intro">
-                <div class="col-md-12 text-xs-center">
-                    <h1>stephen frost</h1>
-                    <p class="lead">full stack web developer &amp; designer</p>
-                    <p class="lead">OR...</p>
-                    <p class="lead">developer. designer. composer.</p>
-
-                </div>
-            </div>
-            <div id="portfolio">
-                <div class="row">
-                    <div class="col-xs-4"></div>
-                    <div class="col-xs-4">
-                        <hr />
-                    </div>
-                    <div class="col-xs-4"></div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="images/mockup-bowiemap.png" alt="Bowiemap screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span class="text-uppercase">Bowiemap</span></h3>
-                        <h4>6 Degrees of Separation Between You and David Bowie</h4>
-                        <p>I worked on a team of two on this project. I ideated, wireframed, and implemented the Ruby / Sinatra / layout / JS / d3.js / neo4j portions. Dynamically visualizes a graph database of ~40k nodes and 100k connections. Strong focus on optimizing query time via Ruby. Focus on recently departed celebrities (Bowie, Prince, Merle Haggard), and the Richmond, VA local music scene. Part of a larger project, this is why I learned to code--to automate processes I'd done manually, in which my MVP eventually hit a 4.0 viral coefficient--but it took 4 hours to make each visualization manually. It now takes ~6 seconds.</p>
-                        <p>
-                            <span class="tech">Ruby</span>
-                            <span class="tech">Sinatra</span>
-                            <span class="tech">HTML</span>
-                            <span class="tech">JavaScript</span>
-                            <span class="tech">JQuery</span>
-                            <span class="tech">d3.js</span>
-                            <span class="tech">Neo4j</span>
-                            <span class="tech">Cypher</span>
-                            <span class="tech">neo4j.rb</span>
-                            <span class="tech">Slim</span>
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="images/mockup-scraper.png" alt="Bowie-Scraper Screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>Bowie-Scraper</span></h3>
-                        <h4>Solve That Pesky Data-Acquisition Problem</h4>
-                        <p>Automates Bowiemap database population. Improves on my manual process speed by 95.5%. “Learns” to improve its own performance. Uses IBM Watson to extract entities, and Watir WebDriver to thwart CAPTCHAs. Legally dubious...so I also deny its existence. Has been customized for other uses like automatically building lists of new potential clients/leads.</p>
-                        <p>
-                            <span class="tech">Ruby</span>
-                            <span class="tech">IBM Watson API</span>
-                            <span class="tech">Nokogiri</span>
-                            <span class="tech">Watir WebDriver</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="images/mockup-clout.png" alt="Clout Screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>Clout</span></h3>
-                        <h4>Measure Your Artistic Impact</h4>
-                        <p>Quantify influentialness of music artists via algorithm partially analogous to the Eddington Number (long-distance sports) or h-index (academic research impact).</p>
-                        <p>
-                            <span class="tech">Ruby</span>
-                            <span class="tech">Neo4j</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="http://unsplash.it/745/496?random" alt="Surgical Consent Form Creator screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>Surgical Consent Form Creator</span></h3>
-                        <h4>Goodbye, Generic Surgical Consent Forms with <s>Crossed-Out Paragraphs</s></h4>
-                        <p>Helps surgeons’ assistants create customized patient consent forms. Answer questions about patient and procedure to define form specifics. Form styled and output as a PDF. Custom versions for OSX, Windows, and UNIX machines. I developed this for a client whose Wordpress site I'd built--he asked if it was possible, and since I was learning Ruby, I figured <em>anything's possible</em>.</p>
-                        <p><span class="tech">Ruby</span></p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="images/mockup-rightsgarage.png" alt="RightsGarage screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>RightsGarage</span></h3>
-                        <h4>Bitcoin for Copyright Protection</h4>
-                        <p>I found unexploited loopholes in international treaties, so I developed a process of getting around the US Copyright Office to produce nonrepudiable evidence valid in all international courts (except Somalia and Uganda). I wrote a provisional patent for a portion of it, with guidance from DOD security contractors and IP attorneys for the UN. A Chinese/Israeli/American company invested in it, which ended in a bang! when Dr. Dre/Beats Music came after us for trademark violation over the name in China right before Apple acquired them.</p>
-                        <p>
-                            <span class="tech">Photoshop</span>
-                            <span class="tech">Draw.io</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="http://unsplash.it/745/496?random" alt="Kubeat Sites screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>Kubeat Sites</span></h3>
-                        <h4>Instant Websites for Musicians</h4>
-                        <p>I designed pixel-perfect mockups for a DIY instant website creator for musicians. The back-end was originally built for personal trainers who would answer a few questions. The platform funnels social media profile data, customized to the needs of music artists and solving the problems I experienced on competitors' sites.</p>
-                        <p>
-                            <span class="tech">Photoshop</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="images/age.png" alt="Album Art screenshot">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>Album Art</span></h3>
-                        <h4>Ten Album Covers</h4>
-                        <p>In true DIY form, I have been the layout designer / art director for a number of my own releases. When not stealing from Picasso, I've worked with many excellent artists and photographers along the way.</p>
-                        <p>
-                            <span class="tech">Photoshop</span>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1">
-                        <img class="img-fluid" src="images/rebasingisscary.png" alt="Rebasing Is Scary tshirt">
-                    </div>
-                    <div class="col-md-6">
-                        <h3><span>Rebasing Is Scary</span></h3>
-                        <h4>Because you're not 100% sure you know what you're doing.</h4>
-                        <p>I designed this t-shirt after a rebase frightfest. If you don't think this is chuckle-worthy, then we may not be a good cultural fit.</p>
-                        <p>
-                            <span class="tech">Photoshop</span>
-                            <span class="tech">Anxiety</span>
-                            <span class="tech">Courage</span>
-                        </p>
-                    </div>
-                </div>
-
-
-            </div><!--portfolio-->
-
-            <div class="row">
-                    <div class="col-xs-4"></div>
-                    <div class="col-xs-4">
-                        <hr />
-                    </div>
-                    <div class="col-xs-4"></div>
-                </div>
-
-            <div id="about">
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-1">
-                        <h2>About</h2>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="images/face.png" alt="my face" style="width:200px" class="img-fluid center-block">
-                    </div>
-                    <div class="col-md-5"><p>I solve problems. As a composer and a writer turned developer, I develop elegant code, designs, and solutions. I know how to ask the right questions, value growth-hacking, and learn quickly. My burning curiosity motivates me to do my best work, and approach every challenge with fresh ideas from various disciplines. I enjoy stretching my skills to produce interesting and useful apps that solve everyday problems. I am looking for opportunities to build new and innovative products that provide immense value to the world.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-1"><h3><span>What I Do</span></h3>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="img-fluid center-block" src="images/fullstack.png">
-                        <p class="lead text-xs-center">Web Developer</p>
-                        <p class="aboutDescription text-xs-center">Planning, organizing, and communicating are my constant companions. I like finding the right tool to solve the right problems. Coming from an entrepreneurship background, I value creativity while shunning feature-creep, pursue elegant optimization while working to deadlines, and in every opportunity seek to provide value to all stakeholders.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="img-fluid center-block" src="images/graphicarts.png">
-                        <p class="lead text-xs-center">Designer</p>
-                        <p class="aboutDescription text-xs-center">From an early age I found that great design makes people instantly receptive to engaging with it. I became involved with design not for its own sake, but to make visual experiences that aligned with what they represented: apps, albums, events, websites, etc. I seek my visual language in clean, pragamatic design that says what it means.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="img-fluid center-block" src="images/computer.png">
-                        <p class="lead text-xs-center">Full Time Nerd</p>
-                        <p class="aboutDescription text-xs-center">Sure, I learned BASIC at age 8 and named a dog after Spiderman's clone, but there's so much more to being nerdy. Whether that's learning French, performing in a Led Zeppelin tribute band, or conjuring up my own aftershave, I work hard to learn all I can about the things that interest me.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-1"><h3><span>How I Do It</span></h3>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="img-fluid center-block" src="images/programming.png">
-                        <p class="lead text-xs-center">Languages</p>
-                        <p class="aboutDescription text-xs-center">JavaScript | JQuery | HTML5 | CSS <br /> Bootstrap | Ruby | Sinatra |  Neo4j | D3.js</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img class="img-fluid center-block" src="images/atomic.png">
-                        <p class="lead text-xs-center">Skills</p>
-                        <p class="aboutDescription text-xs-center">Adobe Suite | Trello | Slack | Bash <br /> StackOverflow | Agile | Lean | Github <br /> Project Management | Remote Collaboration <br /> Video/Music/Audio</p>
-                    </div>
-
-                    <div class="col-md-3">
-                        <img class="img-fluid center-block" src="images/attributes.png">
-                        <p class="lead text-xs-center">Attributes</p>
-                        <p class="aboutDescription text-xs-center">Fast Problem Solving | Attention to Detail | Organization | Self-learning | Determined | Goal-Oriented</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-1"><h3><span>Background</span></h3>
-                    </div>
-                    <div class="col-md-9">
-                        <p>As a developer with an entrepreneurial and creative background, I am enthusiastic about using my skills to discover and solve the right problems. My time as a startup founder helped me develop a keen sense of what's working, what's not, and how to prioritize solutions. The challenge and pursuit of elegance both visually and under-the-hood is as fun for me as is rapidly putting out fires. As a commercial composer, I've excelled in communicating many musical "languages" to solve the problems of multiple stakeholders. The bulk of composition is in knowing the right tool for the job, teamwork, and rapidly responding to project changes--I translate these skills into web development. I'm a quick study, where I learn best through immersion in new languages and concepts for the sake of solving specific problems. I love finding and exploiting patterns and systems, and drawing solutions from diverse fields. Like all creative domains, web development constantly evolves--new rules, new trends, and new things to learn. I look forward with excitement to being a part of what's next.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2 col-md-offset-1"><h3><span>The Fun Bits</span></h3>
-                    </div>
-                    <div class="col-md-9">
-                        <p>Full disclosure: the only merit badge I ever actually earned was in leatherworking. When I'm not sitting in front of a screen, I'm making music. I compose music for commercials, produce my own songs, and perform with a Led Zeppelin tribute band, a klezmer/gypsy/jazz band, and a synth-pop group whose songs are all about Chile. I enjoy reading, where I'm usually in the middle of some 20 books (I have a system, and I'm great at compartmentalizing). Some of the books I'm reading right now include: <em>Godel, Escher, Bach</em> (artificial intelligence), <em>Rites of Spring</em> (WWI's influence on art), and <em>Les Miserables</em> (bread).</p>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <footer class="footer">
-            </footer>
+        <div class="container-fluid" id="navbar">
         </div>
 
-        <div class="modal fade" id="modalSurgical" tabindex="-1" role="dialog" aria-labelledby="modalSurgical" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h4 class="modal-title" id="modalSurgicalLabel">Surgical Consent Form Creator</h4>
-                    </div><!--header-->
-                    <div class="modal-body">
-                    ...
-                    </div><!--body-->
-                </div><!--content-->
-            </div><!--dialog-->
-        </div><!--modal-->
+        <div class="row" id="intro">
+            <div class="col-md-12 text-xs-center">
+                <h1>stephen frost</h1>
+                <p class="lead">full stack web developer &amp; designer</p>
+                <p class="lead">OR...</p>
+                <p class="lead">developer. designer. composer.</p>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="row">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4">
+                    <hr />
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="images/mockup-bowiemap.png" alt="Bowiemap screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span class="text-uppercase">Bowiemap</span></h3>
+                    <h4>6 Degrees of Separation Between You and David Bowie</h4>
+                    <p>I worked on a team of two on this project. I ideated, wireframed, and implemented the Ruby / Sinatra / layout / JS / d3.js / neo4j portions. Dynamically visualizes a graph database of ~40k nodes and 100k connections. Strong focus on optimizing query time via Ruby. Focus on recently departed celebrities (Bowie, Prince, Merle Haggard), and the Richmond, VA local music scene. Part of a larger project, this is why I learned to code--to automate processes I'd done manually, in which my MVP eventually hit a 4.0 viral coefficient--but it took 4 hours to make each visualization manually. It now takes ~6 seconds.</p>
+                    <p>
+                        <span class="tech">Ruby</span>
+                        <span class="tech">Sinatra</span>
+                        <span class="tech">HTML</span>
+                        <span class="tech">JavaScript</span>
+                        <span class="tech">JQuery</span>
+                        <span class="tech">d3.js</span>
+                        <span class="tech">Neo4j</span>
+                        <span class="tech">Cypher</span>
+                        <span class="tech">neo4j.rb</span>
+                        <span class="tech">Slim</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="images/mockup-scraper.png" alt="Bowie-Scraper Screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>Bowie-Scraper</span></h3>
+                    <h4>Solve That Pesky Data-Acquisition Problem</h4>
+                    <p>Automates Bowiemap database population. Improves on my manual process speed by 95.5%. “Learns” to improve its own performance. Uses IBM Watson to extract entities, and Watir WebDriver to thwart CAPTCHAs. Legally dubious...so I also deny its existence. Has been customized for other uses like automatically building lists of new potential clients/leads.</p>
+                    <p>
+                        <span class="tech">Ruby</span>
+                        <span class="tech">IBM Watson API</span>
+                        <span class="tech">Nokogiri</span>
+                        <span class="tech">Watir WebDriver</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="images/mockup-clout.png" alt="Clout Screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>Clout</span></h3>
+                    <h4>Measure Your Artistic Impact</h4>
+                    <p>Quantify influentialness of music artists via algorithm partially analogous to the Eddington Number (long-distance sports) or h-index (academic research impact).</p>
+                    <p>
+                        <span class="tech">Ruby</span>
+                        <span class="tech">Neo4j</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="http://unsplash.it/745/496?random" alt="Surgical Consent Form Creator screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>Surgical Consent Form Creator</span></h3>
+                    <h4>Goodbye, Generic Surgical Consent Forms with <s>Crossed-Out Paragraphs</s></h4>
+                    <p>Helps surgeons’ assistants create customized patient consent forms. Answer questions about patient and procedure to define form specifics. Form styled and output as a PDF. Custom versions for OSX, Windows, and UNIX machines. I developed this for a client whose Wordpress site I'd built--he asked if it was possible, and since I was learning Ruby, I figured <em>anything's possible</em>.</p>
+                    <p><span class="tech">Ruby</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="images/mockup-rightsgarage.png" alt="RightsGarage screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>RightsGarage</span></h3>
+                    <h4>Bitcoin for Copyright Protection</h4>
+                    <p>I found unexploited loopholes in international treaties, so I developed a process of getting around the US Copyright Office to produce nonrepudiable evidence valid in all international courts (except Somalia and Uganda). I wrote a provisional patent for a portion of it, with guidance from DOD security contractors and IP attorneys for the UN. A Chinese/Israeli/American company invested in it, which ended in a bang! when Dr. Dre/Beats Music came after us for trademark violation over the name in China right before Apple acquired them.</p>
+                    <p>
+                        <span class="tech">Photoshop</span>
+                        <span class="tech">Draw.io</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="http://unsplash.it/745/496?random" alt="Kubeat Sites screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>Kubeat Sites</span></h3>
+                    <h4>Instant Websites for Musicians</h4>
+                    <p>I designed pixel-perfect mockups for a DIY instant website creator for musicians. The back-end was originally built for personal trainers who would answer a few questions. The platform funnels social media profile data, customized to the needs of music artists and solving the problems I experienced on competitors' sites.</p>
+                    <p>
+                        <span class="tech">Photoshop</span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="images/age.png" alt="Album Art screenshot">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>Album Art</span></h3>
+                    <h4>Ten Album Covers</h4>
+                    <p>In true DIY form, I have been the layout designer / art director for a number of my own releases. When not stealing from Picasso, I've worked with many excellent artists and photographers along the way.</p>
+                    <p>
+                        <span class="tech">Photoshop</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="img-fluid" src="images/rebasingisscary.png" alt="Rebasing Is Scary tshirt">
+                </div>
+                <div class="col-md-6">
+                    <h3><span>Rebasing Is Scary</span></h3>
+                    <h4>Because you're not 100% sure you know what you're doing.</h4>
+                    <p>I designed this t-shirt after a rebase frightfest. If you don't think this is chuckle-worthy, then we may not be a good cultural fit.</p>
+                    <p>
+                        <span class="tech">Photoshop</span>
+                        <span class="tech">Anxiety</span>
+                        <span class="tech">Courage</span>
+                    </p>
+                </div>
+            </div>
+        </div><!--portfolio-->
+
+        <div class="row">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4">
+                    <hr />
+                </div>
+                <div class="col-xs-4"></div>
+        </div>
+
+        <div id="about">
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1">
+                    <h2>About</h2>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/face.png" alt="my face" style="width:200px" class="img-fluid center-block">
+                </div>
+                <div class="col-md-5"><p>I solve problems. As a composer and a writer turned developer, I develop elegant code, designs, and solutions. I know how to ask the right questions, value growth-hacking, and learn quickly. My burning curiosity motivates me to do my best work, and approach every challenge with fresh ideas from various disciplines. I enjoy stretching my skills to produce interesting and useful apps that solve everyday problems. I am looking for opportunities to build new and innovative products that provide immense value to the world.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1"><h3><span>What I Do</span></h3>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid center-block" src="images/fullstack.png">
+                    <p class="lead text-xs-center">Web Developer</p>
+                    <p class="aboutDescription text-xs-center">Planning, organizing, and communicating are my constant companions. I like finding the right tool to solve the right problems. Coming from an entrepreneurship background, I value creativity while shunning feature-creep, pursue elegant optimization while working to deadlines, and in every opportunity seek to provide value to all stakeholders.</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid center-block" src="images/graphicarts.png">
+                    <p class="lead text-xs-center">Designer</p>
+                    <p class="aboutDescription text-xs-center">From an early age I found that great design makes people instantly receptive to engaging with it. I became involved with design not for its own sake, but to make visual experiences that aligned with what they represented: apps, albums, events, websites, etc. I seek my visual language in clean, pragamatic design that says what it means.</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid center-block" src="images/computer.png">
+                    <p class="lead text-xs-center">Full Time Nerd</p>
+                    <p class="aboutDescription text-xs-center">Sure, I learned BASIC at age 8 and named a dog after Spiderman's clone, but there's so much more to being nerdy. Whether that's learning French, performing in a Led Zeppelin tribute band, or conjuring up my own aftershave, I work hard to learn all I can about the things that interest me.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1"><h3><span>How I Do It</span></h3>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid center-block" src="images/programming.png">
+                    <p class="lead text-xs-center">Languages</p>
+                    <p class="aboutDescription text-xs-center">JavaScript | JQuery | HTML5 | CSS <br /> Bootstrap | Ruby | Sinatra |  Neo4j | D3.js</p>
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid center-block" src="images/atomic.png">
+                    <p class="lead text-xs-center">Skills</p>
+                    <p class="aboutDescription text-xs-center">Adobe Suite | Trello | Slack | Bash <br /> StackOverflow | Agile | Lean | Github <br /> Project Management | Remote Collaboration <br /> Video/Music/Audio</p>
+                </div>
+
+                <div class="col-md-3">
+                    <img class="img-fluid center-block" src="images/attributes.png">
+                    <p class="lead text-xs-center">Attributes</p>
+                    <p class="aboutDescription text-xs-center">Fast Problem Solving | Attention to Detail | Organization | Self-learning | Determined | Goal-Oriented</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1"><h3><span>Background</span></h3>
+                </div>
+                <div class="col-md-9">
+                    <p>As a developer with an entrepreneurial and creative background, I am enthusiastic about using my skills to discover and solve the right problems. My time as a startup founder helped me develop a keen sense of what's working, what's not, and how to prioritize solutions. The challenge and pursuit of elegance both visually and under-the-hood is as fun for me as is rapidly putting out fires. As a commercial composer, I've excelled in communicating many musical "languages" to solve the problems of multiple stakeholders. The bulk of composition is in knowing the right tool for the job, teamwork, and rapidly responding to project changes--I translate these skills into web development. I'm a quick study, where I learn best through immersion in new languages and concepts for the sake of solving specific problems. I love finding and exploiting patterns and systems, and drawing solutions from diverse fields. Like all creative domains, web development constantly evolves--new rules, new trends, and new things to learn. I look forward with excitement to being a part of what's next.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-1"><h3><span>The Fun Bits</span></h3>
+                </div>
+                <div class="col-md-9">
+                    <p>Full disclosure: the only merit badge I ever actually earned was in leatherworking. When I'm not sitting in front of a screen, I'm making music. I compose music for commercials, produce my own songs, and perform with a Led Zeppelin tribute band, a klezmer/gypsy/jazz band, and a synth-pop group whose songs are all about Chile. I enjoy reading, where I'm usually in the middle of some 20 books (I have a system, and I'm great at compartmentalizing). Some of the books I'm reading right now include: <em>Godel, Escher, Bach</em> (artificial intelligence), <em>Rites of Spring</em> (WWI's influence on art), and <em>Les Miserables</em> (bread).</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+        </footer>
+    </div>
+
+    <div class="modal fade" id="modalSurgical" tabindex="-1" role="dialog" aria-labelledby="modalSurgical" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="modalSurgicalLabel">Surgical Consent Form Creator</h4>
+                </div><!--header-->
+                <div class="modal-body">
+                ...
+                </div><!--body-->
+            </div><!--content-->
+        </div><!--dialog-->
+    </div><!--modal-->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.2/js/tether.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
@@ -296,12 +263,13 @@
     <script>
     $(document).ready(function(){
         $('footer').load( "./footer.html" );
+        $('#navbar').load( "./topnav.html" );
     }).on({
         mouseenter: function () {
             $(this).toggleClass('active','fast', 'easeOutSine');
         }, mouseleave: function() {
             $(this).toggleClass('active','fast', 'easeOutSine');
-        } }, "#footer .fa") ;
+        } }, "#footer .fa") ; // passes element as argument to .on
     </script>
     </body>
 </html>
