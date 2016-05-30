@@ -78,7 +78,7 @@ https://css-tricks.com/hash-tag-links-padding/ */
     font-weight: 500;
 }
 
-.shrink {
+.navbar {
     background-color: whitesmoke;
     opacity: .89;
 }
@@ -90,4 +90,3 @@ https://css-tricks.com/hash-tag-links-padding/ */
 .active {
     color: whitesmoke;
 }
-

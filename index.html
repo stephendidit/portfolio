@@ -267,10 +267,8 @@
 
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
-            $('nav').addClass('shrink','fast','easeInSine');
             $('.navbar-brand').fadeIn('fast', 'easeInSine');
         } else {
-            $('nav').removeClass('shrink','fast','easeOutSine');
             $('.navbar-brand').fadeOut('fast','easeOutSine');
         }
     });
