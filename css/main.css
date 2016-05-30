@@ -39,6 +39,16 @@ hr {
     margin: 2rem 0 2rem 0;
 }
 
+/* This deals with the #about anchor looking ugly when following link straight there
+https://css-tricks.com/hash-tag-links-padding/ */
+#about:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
+}
+
 #footer, #footer a {
     background-color: #dd471b;
     color: #f9dbd2;
@@ -47,6 +57,10 @@ hr {
 #portfolio div.row, #about div.row {
     margin-bottom: 2.5rem;
     padding: 0 .75rem;
+}
+
+#intro {
+    margin-top: 50px;
 }
 
 .lead {
@@ -58,6 +72,15 @@ hr {
     padding: 0 24px 0 0;
     font-family: josefin slab, serif;
     text-transform: capitalize;
+}
+#brand{
+    color: #dd471b;
+    font-weight: 500;
+}
+
+.shrink {
+    background-color: whitesmoke;
+    opacity: .89;
 }
 
 .aboutDescription {

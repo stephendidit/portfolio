@@ -21,12 +21,10 @@
         <div class="row" id="intro">
             <div class="col-md-12 text-xs-center">
                 <h1>stephen frost</h1>
-                <p class="lead">full stack web developer &amp; designer</p>
-                <p class="lead">OR...</p>
-                <p class="lead">developer. designer. composer.</p>
+                <p class="lead">web developer. visual designer. music composer.</p>
             </div>
         </div>
-        <div id="portfolio">
+        <div id="projects">
             <div class="row">
                 <div class="col-xs-4"></div>
                 <div class="col-xs-4">
@@ -231,7 +229,7 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <footer class="footer" id="contact">
         </footer>
     </div>
 
@@ -265,7 +263,30 @@
             $(this).toggleClass('active','fast', 'easeOutSine');
         }, mouseleave: function() {
             $(this).toggleClass('active','fast', 'easeOutSine');
-        } }, "#footer .fa") ; // passes element as argument to .on
+        } }, "#footer .fa"); // passes element as argument to .on
+
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            flag = true;
+        } else {
+            flag = false;
+        }
+
+        if (flag) {
+            $('nav').addClass('shrink','fast','easeInSine');
+            $('.navbar-brand').fadeIn('fast', 'easeInSine');
+        } else {
+            $('nav').removeClass('shrink','fast','easeOutSine');
+            $('.navbar-brand').fadeOut('fast','easeOutSine');
+        }
+
+        // if ($(document).scrollTop() > 50) {
+        //     $('nav').addClass('shrink','fast','easeInSine');
+        //     $('nav').prepend('<a class="navbar-brand" href="#">Brand</a>');
+        // } else {
+        //     $('nav').removeClass('shrink','fast','easeInSine');
+        // }
+    });
     </script>
     </body>
 </html>
