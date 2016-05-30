@@ -54,7 +54,7 @@ https://css-tricks.com/hash-tag-links-padding/ */
     color: #f9dbd2;
 }
 
-#portfolio div.row, #about div.row {
+#projects div.row, #about div.row {
     margin: 1rem 0 2.5rem 0;
     padding: 0 .75rem;
 }
