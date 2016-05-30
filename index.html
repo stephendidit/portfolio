@@ -267,25 +267,12 @@
 
     $(window).scroll(function() {
         if ($(document).scrollTop() > 50) {
-            flag = true;
-        } else {
-            flag = false;
-        }
-
-        if (flag) {
             $('nav').addClass('shrink','fast','easeInSine');
             $('.navbar-brand').fadeIn('fast', 'easeInSine');
         } else {
             $('nav').removeClass('shrink','fast','easeOutSine');
             $('.navbar-brand').fadeOut('fast','easeOutSine');
         }
-
-        // if ($(document).scrollTop() > 50) {
-        //     $('nav').addClass('shrink','fast','easeInSine');
-        //     $('nav').prepend('<a class="navbar-brand" href="#">Brand</a>');
-        // } else {
-        //     $('nav').removeClass('shrink','fast','easeInSine');
-        // }
     });
     </script>
     </body>
