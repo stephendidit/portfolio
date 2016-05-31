@@ -5,6 +5,7 @@
 body {
     background-color: whitesmoke;
     color: #758988;
+    position: relative; /* necessary for scrollspy */
 }
 
 h1, h2 {
