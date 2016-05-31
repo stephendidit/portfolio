@@ -16,9 +16,9 @@ h3 span{
     padding: 5px;
     color: #fffdff;
     font-family: 'Muli', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1rem;
-    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 h4,h5 {
@@ -37,6 +37,13 @@ h5 {
 
 hr {
     margin: 2rem 0 2rem 0;
+}
+
+nav {
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: .8rem;
 }
 
 /* This deals with the #about anchor looking ugly when following link straight there
@@ -89,4 +96,8 @@ https://css-tricks.com/hash-tag-links-padding/ */
 
 .active {
     color: whitesmoke;
+}
+
+.tooltip-arrow, .tooltip-inner {
+    background-color: black;
 }
