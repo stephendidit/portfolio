@@ -39,35 +39,61 @@ hr {
     margin: 2rem 0 2rem 0;
 }
 
-nav {
+
+/* NAVBAR */
+
+nav, .dropdown-item {
     text-transform: lowercase;
     letter-spacing: 1px;
     font-weight: 400;
     font-size: .8rem;
 }
 
-/* This deals with the #about anchor looking ugly when following link straight there
-https://css-tricks.com/hash-tag-links-padding/ */
-#about:before { 
-  display: block; 
-  content: " "; 
-  margin-top: -80px; 
-  height: 80px; 
-  visibility: hidden; 
+.active {
+    color: whitesmoke;
 }
 
-#footer, #footer a {
-    background-color: #dd471b;
-    color: #f9dbd2;
+#brand{
+    color: #dd471b;
+    font-weight: 500;
 }
+
+.navbar {
+    background-color: whitesmoke;
+    opacity: .89;
+}
+#brand{
+    color: #dd471b;
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    opacity: .89;
+}
+
+/* TOOLTIP */
+
+.tooltip-inner {
+    background-color: white;
+    color: rgba(0,0,0,0.6);
+}
+
+#contactTooltipArrow {
+    border-bottom-color: white;
+}
+
+/* HEADER */
+
+#intro {
+    margin-top: 50px;
+}
+
+/* PROJECTS */
 
 #projects div.row, #about div.row {
     margin: 1rem 0 2.5rem 0;
     padding: 0 .75rem;
-}
-
-#intro {
-    margin-top: 50px;
 }
 
 .lead {
@@ -80,24 +106,27 @@ https://css-tricks.com/hash-tag-links-padding/ */
     font-family: josefin slab, serif;
     text-transform: capitalize;
 }
-#brand{
-    color: #dd471b;
-    font-weight: 500;
-}
 
-.navbar {
-    background-color: whitesmoke;
-    opacity: .89;
-}
+/* ABOUT */
 
 .aboutDescription {
     margin-top: 1rem;
 }
 
-.active {
-    color: whitesmoke;
+    /* This deals with the #about anchor looking ugly when following link straight there
+    https://css-tricks.com/hash-tag-links-padding/ */
+#about:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px; 
+  height: 80px; 
+  visibility: hidden; 
 }
 
-.tooltip-arrow, .tooltip-inner {
-    background-color: black;
+
+/* FOOTER */
+
+#footer, #footer a {
+    background-color: #dd471b;
+    color: #f9dbd2;
 }
