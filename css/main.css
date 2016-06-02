@@ -180,7 +180,7 @@ nav, .dropdown-item {
 
 .hovereffect h2 {
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   text-align: center;
   position: relative;
   font-size: 17px;
@@ -209,13 +209,17 @@ nav, .dropdown-item {
 }
 
 .hovereffect a, .hovereffect p {
-  color: #FFF;
+  color: #000;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(100%,0,0);
   transform: translate3d(100%,0,0);
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-size: 5rem;
 }
 
 .hovereffect:hover a, .hovereffect:hover p {
