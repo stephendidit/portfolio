@@ -2,7 +2,7 @@ $(document).ready(function(){
     $('footer').load( "./footer.html" );
     $('#navbar').load( "./topnav.html", function(){ // adding this function is callback
         $('#contactMenu').tooltip();
-    } );
+    });
     
 }).on({
     mouseenter: function () {

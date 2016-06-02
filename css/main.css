@@ -2,6 +2,8 @@
     /*border: 1px dotted red;*/
 }
 
+
+
 body {
     background-color: whitesmoke;
     color: #758988;
@@ -108,6 +110,7 @@ nav, .dropdown-item {
     text-transform: capitalize;
 }
 
+
 /* ABOUT */
 
 .aboutDescription {
@@ -131,6 +134,8 @@ nav, .dropdown-item {
     background-color: #dd471b;
     color: #f9dbd2;
 }
+
+/* HOVER */
 
 .hovereffect {
   width: 100%;
