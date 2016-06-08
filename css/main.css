@@ -10,7 +10,7 @@ body {
     position: relative; /* necessary for scrollspy */
 }
 
-h1, h2 {
+h1, h2, .sm-icon {
     color: #dd471b;
 }
 
